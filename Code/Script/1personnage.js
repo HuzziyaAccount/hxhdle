@@ -273,7 +273,7 @@ function afficherComparaison(persoPropose, persoADeviner) {
       let couleur;
 
       // Si les valeurs sont identiques
-      if (valPropose === valADeviner) {
+      if (JSON.stringify(valADeviner) === JSON.stringify(valPropose)) {
         couleur = "#2b9d57"; // Complètement égal
       } 
       // Si valPropose et valADeviner ont une chaîne de caractères en commun
