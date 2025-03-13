@@ -384,24 +384,3 @@ suggestionSearch.addEventListener("click", (e) => {
   }
 })
 
-document.cookie = `game=perso; expires=Fri, 31 Dec 9999 23:59:59 GMT`;
-
-function envoyerStats(game, result, time) {
-  fetch("http://localhost:3000/stats", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-          ip: "adresse-ip-joueur",  // Tu peux remplacer par une vraie IP plus tard ou la récupérer via un service API si besoin
-          game: game,
-          result: result,
-          time: time
-      })
-  })
-  .then(response => response.text()) // Afficher la réponse du serveur
-  .then(data => console.log(data))  // Afficher ce que renvoie le serveur
-  .catch(error => console.error('Erreur:', error)); // Gérer les erreurs
-}
-
-// Exemple d'appel à la fonction :
-envoyerStats('perso', 'gagné', '120s');
-
