@@ -120,11 +120,9 @@ body {
     border: 2px solid #1e555cab;
     box-shadow: 0 4px 8px #8fabac, inset 0 0 8px rgba(255, 255, 255, 0.3);
     outline: none;
+    margin-bottom: 10px;
 }
 .suggestion-recherche {
-    position: absolute;
-    top: 350px;
-    z-index: 10;
     width: 240px;
     max-height: 300px;
     overflow: auto;
