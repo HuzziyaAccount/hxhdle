@@ -111,7 +111,7 @@ const TabPersosInfos = [
   { prenom: "Rasor", nom: "", image: "../../Ressources/Personnages/rasor.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Greed Island", occupation: "Maitre du jeu", typeNen: "Émission", premierArc: "Greed Island" },
   { prenom: "Abengane", nom: "", image: "../../Ressources/Personnages/abengane.webp", genre: "Masculin", statut: "Vivant(e)", affiliation: "Aucune", occupation: "Exorciste", typeNen: "Matérialisation", premierArc: "Greed Island" },
   // Kimera Ants
-  { prenom: "Kaito", nom: "", image: "../../Ressources/Personnages/kaito.jpg", genre: "Masculin", statut: "Vivant(e) ", affiliation: ["Société Hunter", "Fourmis Chimères"], occupation: ["Hunter", "Sous contrat"], typeNen: "Matérialisation", premierArc: "Kimera Ants" },
+  { prenom: "Kaito", nom: "", image: "../../Ressources/Personnages/kaito.jpg", genre: "Masculin", statut: "Vivant(e)", affiliation: ["Société Hunter", "Fourmis Chimères"], occupation: ["Hunter", "Sous contrat"], typeNen: "Matérialisation", premierArc: "Kimera Ants" },
   { prenom: "Meruem", nom: "", image: "../../Ressources/Personnages/meruem.jpg", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Roi", typeNen: "Émission", premierArc: "Kimera Ants" },
   { prenom: "Neferupito", nom: "", image: "../../Ressources/Personnages/neferupito.jpg", genre: "Inconnu", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde Royale", typeNen: "Spécialisation", premierArc: "Kimera Ants" },
   { prenom: "Montutyupi", nom: "", image: "../../Ressources/Personnages/montutyupi.jpg", genre: "Masculin", statut: "Décédé(e)", affiliation: "Fourmis Chimères", occupation: "Garde Royale", typeNen: "Transformation", premierArc: "Kimera Ants" },
